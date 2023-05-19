@@ -48,3 +48,8 @@ Thumbs.db
 *.mov
 *.wmv
 
+Example/Pods/Pods.xcodeproj/xcuserdata
+Example/TuyaSmartActivator.xcworkspace/xcuserdata
+Example/TuyaSmartActivator.xcodeproj/xcshareddata
+Example/TuyaSmartActivator.xcodeproj/xcuserdata
+Example/TuyaSmartActivator.xcworkspace/xcshareddata

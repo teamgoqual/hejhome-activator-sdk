@@ -1,0 +1,1125 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		49BE71013E3709FFC17FB9FC12BF7230 /* TYBluetooth */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 537E119525EFE82FAC4CBC37B3A089D2 /* Build configuration list for PBXAggregateTarget "TYBluetooth" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TYBluetooth;
+		};
+		6910AECED46A13831930514BC636347C /* TuyaSmartActivator */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7A0DA7905313034EF4F7F58E7A38E9A8 /* Build configuration list for PBXAggregateTarget "TuyaSmartActivator" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4293A4EBC70DA1B145B83704D6DDCAD8 /* PBXTargetDependency */,
+				17F82B654281C6E3B3A17221A7DB208E /* PBXTargetDependency */,
+				DD76BE82FE4DDAEEF91026C910CAA6C6 /* PBXTargetDependency */,
+			);
+			name = TuyaSmartActivator;
+		};
+		85EAF3BF92126577F2D2A2CCF6883D56 /* TuyaSmartUtil */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D9286DE5A4C97B1E70634DFD183CE12D /* Build configuration list for PBXAggregateTarget "TuyaSmartUtil" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TuyaSmartUtil;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0EC1806437F66CC12F06DD7ACD1FBA4A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5359E8FB322457653E676483AB72D7B1 /* Security.framework */; };
+		14703875367641811BD5FE75ACD67C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B655093DDCC0176DEAC903ABA8E76527 /* Foundation.framework */; };
+		1F292B5410B16DBF60D1F47A48216622 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0ECCAE5A4DACEE5EE8868D826E767A /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		20386C4BEBA1CEA6E5EDB1669B7ADD76 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC814063E47992E7A90FA41688C2A454 /* CFNetwork.framework */; };
+		2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FF9CDABB8CF7EF307AE2E1D7381BEC /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B072FB07D18E962944CC9454E87A5B37 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BF74333AE07C744964DCE76496BD714 /* Pods-TuyaSmartActivator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 170D60F7782343BB47B335094D35F260 /* Pods-TuyaSmartActivator_Tests-dummy.m */; };
+		55314D522B5DCE39CFC30A0B48B300DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B655093DDCC0176DEAC903ABA8E76527 /* Foundation.framework */; };
+		5CB4AABF4786977FB26B7EACB7B8E79D /* Pods-TuyaSmartActivator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD4429F9D4F402DF2F2DC6887429A80 /* Pods-TuyaSmartActivator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C237B7AA6F4A2DD17CA05EB90C83362 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB727D511CBF997418CBB678CCB77451 /* CocoaAsyncSocket-dummy.m */; };
+		A4669E34B9BDA0F6AC08DE5F69AF2F3F /* Pods-TuyaSmartActivator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F24BBCBEDD4AA3DFCF67432E7FF6D89 /* Pods-TuyaSmartActivator_Example-dummy.m */; };
+		B2BA64B32A9FCC6D66A6F271FDA948F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B655093DDCC0176DEAC903ABA8E76527 /* Foundation.framework */; };
+		BF0E4454B28437897BC092AE02CD0C13 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EB5D61595CC2A97900741BF6360CA1 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C64EEA9D4CDDAF20A2ED78CD63981BF3 /* Pods-TuyaSmartActivator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB114C9B293A22D4B4DDD54181926E6B /* Pods-TuyaSmartActivator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD05A156B2B9D536A519F9EF12BC1AE /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		399E384E16975BB52B45AA9DDDA64152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49BE71013E3709FFC17FB9FC12BF7230;
+			remoteInfo = TYBluetooth;
+		};
+		6406A4044904A6ECF6DFD8A82C5CF219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		6B1B575E23BFD401A3F90DCF63C4AAA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49BE71013E3709FFC17FB9FC12BF7230;
+			remoteInfo = TYBluetooth;
+		};
+		834C71A9D6CD305ABF41882F4258619C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85EAF3BF92126577F2D2A2CCF6883D56;
+			remoteInfo = TuyaSmartUtil;
+		};
+		DCC1EA3A7D1F1A15D4094796E08220E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85EAF3BF92126577F2D2A2CCF6883D56;
+			remoteInfo = TuyaSmartUtil;
+		};
+		EE407FF6227B82B2812651D240820764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE9D6C781EBDAB2A003C8462F27D919;
+			remoteInfo = "Pods-TuyaSmartActivator_Example";
+		};
+		EF96AD8065E35416C6EBE79940E12AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6910AECED46A13831930514BC636347C;
+			remoteInfo = TuyaSmartActivator;
+		};
+		FD48B1D75C4A1EA8081495B4509C23EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009E8797D7F444B4FE0C9D2046F8C069 /* TuyaSmartActivator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TuyaSmartActivator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0465BC1E3900805CDDD0DD32893836F8 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		07E87B9C27783EDB5526D3EDBE3DF0A4 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		0EA40B653D4C3123F4AA2744673ACA8A /* Pods_TuyaSmartActivator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TuyaSmartActivator_Tests.framework; path = "Pods-TuyaSmartActivator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170D60F7782343BB47B335094D35F260 /* Pods-TuyaSmartActivator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TuyaSmartActivator_Tests-dummy.m"; sourceTree = "<group>"; };
+		1AD4429F9D4F402DF2F2DC6887429A80 /* Pods-TuyaSmartActivator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TuyaSmartActivator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		272F6840A3C0F348893740E859779518 /* README-zh.md */ = {isa = PBXFileReference; includeInIndex = 1; path = "README-zh.md"; sourceTree = "<group>"; };
+		29DAA09F3D523C6199EA0315C4651791 /* TuyaSmartUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TuyaSmartUtil.framework; path = ios/TuyaSmartUtil.framework; sourceTree = "<group>"; };
+		3DA8E4E5A9DE614F4A67668423FF039A /* Pods-TuyaSmartActivator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TuyaSmartActivator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		402E30024BC8CFE5FB23846ABBEA3E75 /* TYBLEAdvModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYBLEAdvModel.h; path = TuyaSmartActivator/Classes/TYBLEAdvModel.h; sourceTree = "<group>"; };
+		4557F8B315D64B54D7C4DEA8BE3600D9 /* Pods-TuyaSmartActivator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TuyaSmartActivator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		455922062ED432CF348EBE429085FD43 /* Pods-TuyaSmartActivator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TuyaSmartActivator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46C8DFEC7381F897B440F577B90AF075 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		4D8DCEF4225F5352D915DB64104E7E98 /* TuyaSmartUtil.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TuyaSmartUtil.bundle; path = ios/TuyaSmartUtil.framework/Versions/A/Resources/TuyaSmartUtil.bundle; sourceTree = "<group>"; };
+		5048113513E1932ED8EA48681C1095AE /* Pods-TuyaSmartActivator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TuyaSmartActivator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		50F709C777D7ED878CBD29CC393A2940 /* TYBluetooth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYBluetooth.xcconfig; sourceTree = "<group>"; };
+		5359E8FB322457653E676483AB72D7B1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		550DC46129E14937CE8F63A7BE022564 /* Pods-TuyaSmartActivator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TuyaSmartActivator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		565EB2C404EBF5D507BD01091D5B55FE /* Pods-TuyaSmartActivator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TuyaSmartActivator_Example-resources.sh"; sourceTree = "<group>"; };
+		5DCFC985F2EFAA12DBF2348C337F414F /* Pods-TuyaSmartActivator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TuyaSmartActivator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F24BBCBEDD4AA3DFCF67432E7FF6D89 /* Pods-TuyaSmartActivator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TuyaSmartActivator_Example-dummy.m"; sourceTree = "<group>"; };
+		6FECEE43447B1DF34D59CF529949EE06 /* Pods-TuyaSmartActivator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TuyaSmartActivator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		79FF9CDABB8CF7EF307AE2E1D7381BEC /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		86793949F4438991AB6B4E9EDF5F7AFE /* TuyaSmartActivator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TuyaSmartActivator.h; path = TuyaSmartActivator/Classes/TuyaSmartActivator.h; sourceTree = "<group>"; };
+		886C96C677BB7A4B95AE7AE0C67E9A31 /* Pods-TuyaSmartActivator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TuyaSmartActivator_Example.modulemap"; sourceTree = "<group>"; };
+		8B9F923D80D88FBF17F20E2B735AECB4 /* Pods-TuyaSmartActivator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TuyaSmartActivator_Tests-Info.plist"; sourceTree = "<group>"; };
+		9021EFB8E1AE3F1BECD52344A6C1FD51 /* TYBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYBluetooth.framework; path = ios/TYBluetooth.framework; sourceTree = "<group>"; };
+		91745A3558952EEE2CC04BDC3D672773 /* Pods_TuyaSmartActivator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TuyaSmartActivator_Example.framework; path = "Pods-TuyaSmartActivator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		981FD0350546888D189E30C9C25AEBC4 /* Pods-TuyaSmartActivator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TuyaSmartActivator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B072FB07D18E962944CC9454E87A5B37 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		B47D6DDBB60C8847C22F2D996A465A10 /* libTuyaSmartActivator.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTuyaSmartActivator.a; path = TuyaSmartActivator/Classes/libTuyaSmartActivator.a; sourceTree = "<group>"; };
+		B655093DDCC0176DEAC903ABA8E76527 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B6C6C93E6D054F74E20B7328E94C0422 /* Pods-TuyaSmartActivator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TuyaSmartActivator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFABF6410C38874A71AB1BB3C598B286 /* Pods-TuyaSmartActivator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TuyaSmartActivator_Tests.modulemap"; sourceTree = "<group>"; };
+		C0DE6691D421F1B31FEA041E3D49B71D /* Pods-TuyaSmartActivator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TuyaSmartActivator_Example-Info.plist"; sourceTree = "<group>"; };
+		C9EB5D61595CC2A97900741BF6360CA1 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		CB114C9B293A22D4B4DDD54181926E6B /* Pods-TuyaSmartActivator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TuyaSmartActivator_Example-umbrella.h"; sourceTree = "<group>"; };
+		CC814063E47992E7A90FA41688C2A454 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		CCD05A156B2B9D536A519F9EF12BC1AE /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		DC72EC19EDE18FB973ED34C900959B17 /* TuyaSmartUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TuyaSmartUtil.xcconfig; sourceTree = "<group>"; };
+		DEC5292B89C23CADE800054308704E83 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		EB0ECCAE5A4DACEE5EE8868D826E767A /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		FB727D511CBF997418CBB678CCB77451 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		FF4B6E2211676A48FCD87CEA331BD892 /* TuyaSmartActivator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TuyaSmartActivator.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		160EF26C734A27A9436CAB7143AF8F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20386C4BEBA1CEA6E5EDB1669B7ADD76 /* CFNetwork.framework in Frameworks */,
+				14703875367641811BD5FE75ACD67C96 /* Foundation.framework in Frameworks */,
+				0EC1806437F66CC12F06DD7ACD1FBA4A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A8F4CD05A1990A82B88C03B73D9146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BA64B32A9FCC6D66A6F271FDA948F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F94E462EB8AEC8C1532F9829E6D780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55314D522B5DCE39CFC30A0B48B300DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDB0DD9DF2184EAAFFD00F527DE67764 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		047E33D815FF9D6C622C91177B7E35DB /* TuyaSmartUtil */ = {
+			isa = PBXGroup;
+			children = (
+				33104B0E56912E978EE0E69E14F61C75 /* Frameworks */,
+				7E4BD3E196B7FCF0F6A5DF8F96F1E4BE /* Resources */,
+				A6A13517F7390CF7344D3AD3AFE6EEBB /* Support Files */,
+			);
+			name = TuyaSmartUtil;
+			path = TuyaSmartUtil;
+			sourceTree = "<group>";
+		};
+		11E1DDCA056C7BAC40C7F1750004AFFB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF4B6E2211676A48FCD87CEA331BD892 /* TuyaSmartActivator.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TuyaSmartActivator";
+			sourceTree = "<group>";
+		};
+		1E65D1F46A42F11BFA9C9EFC297BE802 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9021EFB8E1AE3F1BECD52344A6C1FD51 /* TYBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23A08CCDB70462723D2882DC986251CF /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				CCD05A156B2B9D536A519F9EF12BC1AE /* GCDAsyncSocket.h */,
+				EB0ECCAE5A4DACEE5EE8868D826E767A /* GCDAsyncSocket.m */,
+				B072FB07D18E962944CC9454E87A5B37 /* GCDAsyncUdpSocket.h */,
+				C9EB5D61595CC2A97900741BF6360CA1 /* GCDAsyncUdpSocket.m */,
+				544B733FC787EE648BED0948BFA89FE2 /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		25798FF4D6D4FA79069DD647164F4905 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23A08CCDB70462723D2882DC986251CF /* CocoaAsyncSocket */,
+				047E33D815FF9D6C622C91177B7E35DB /* TuyaSmartUtil */,
+				87BE46B3DB3F5FF1E144BD35C68EC341 /* TYBluetooth */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E30E8B4A3D1F1D4A3C4723989A9228D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */,
+				91745A3558952EEE2CC04BDC3D672773 /* Pods_TuyaSmartActivator_Example.framework */,
+				0EA40B653D4C3123F4AA2744673ACA8A /* Pods_TuyaSmartActivator_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33104B0E56912E978EE0E69E14F61C75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29DAA09F3D523C6199EA0315C4651791 /* TuyaSmartUtil.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		544B733FC787EE648BED0948BFA89FE2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46C8DFEC7381F897B440F577B90AF075 /* CocoaAsyncSocket.modulemap */,
+				07E87B9C27783EDB5526D3EDBE3DF0A4 /* CocoaAsyncSocket.xcconfig */,
+				FB727D511CBF997418CBB678CCB77451 /* CocoaAsyncSocket-dummy.m */,
+				0465BC1E3900805CDDD0DD32893836F8 /* CocoaAsyncSocket-Info.plist */,
+				DEC5292B89C23CADE800054308704E83 /* CocoaAsyncSocket-prefix.pch */,
+				79FF9CDABB8CF7EF307AE2E1D7381BEC /* CocoaAsyncSocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		619CAF91B51F8511B12580BF993698ED /* Pods-TuyaSmartActivator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BFABF6410C38874A71AB1BB3C598B286 /* Pods-TuyaSmartActivator_Tests.modulemap */,
+				B6C6C93E6D054F74E20B7328E94C0422 /* Pods-TuyaSmartActivator_Tests-acknowledgements.markdown */,
+				455922062ED432CF348EBE429085FD43 /* Pods-TuyaSmartActivator_Tests-acknowledgements.plist */,
+				170D60F7782343BB47B335094D35F260 /* Pods-TuyaSmartActivator_Tests-dummy.m */,
+				8B9F923D80D88FBF17F20E2B735AECB4 /* Pods-TuyaSmartActivator_Tests-Info.plist */,
+				1AD4429F9D4F402DF2F2DC6887429A80 /* Pods-TuyaSmartActivator_Tests-umbrella.h */,
+				4557F8B315D64B54D7C4DEA8BE3600D9 /* Pods-TuyaSmartActivator_Tests.debug.xcconfig */,
+				3DA8E4E5A9DE614F4A67668423FF039A /* Pods-TuyaSmartActivator_Tests.release.xcconfig */,
+			);
+			name = "Pods-TuyaSmartActivator_Tests";
+			path = "Target Support Files/Pods-TuyaSmartActivator_Tests";
+			sourceTree = "<group>";
+		};
+		7CB153C45BB7C87B6E08AAE2684B875D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F709C777D7ED878CBD29CC393A2940 /* TYBluetooth.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TYBluetooth";
+			sourceTree = "<group>";
+		};
+		7E4BD3E196B7FCF0F6A5DF8F96F1E4BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D8DCEF4225F5352D915DB64104E7E98 /* TuyaSmartUtil.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		87BE46B3DB3F5FF1E144BD35C68EC341 /* TYBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				1E65D1F46A42F11BFA9C9EFC297BE802 /* Frameworks */,
+				7CB153C45BB7C87B6E08AAE2684B875D /* Support Files */,
+			);
+			name = TYBluetooth;
+			path = TYBluetooth;
+			sourceTree = "<group>";
+		};
+		A6A13517F7390CF7344D3AD3AFE6EEBB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC72EC19EDE18FB973ED34C900959B17 /* TuyaSmartUtil.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TuyaSmartUtil";
+			sourceTree = "<group>";
+		};
+		BC96F15B38F30A325084DBED6EF439F4 /* TuyaSmartActivator */ = {
+			isa = PBXGroup;
+			children = (
+				86793949F4438991AB6B4E9EDF5F7AFE /* TuyaSmartActivator.h */,
+				402E30024BC8CFE5FB23846ABBEA3E75 /* TYBLEAdvModel.h */,
+				FF7B3A80FC0937CF33A24DA2018E472B /* Frameworks */,
+				BE6CE9458199C6DED8057F434179C981 /* Pod */,
+				11E1DDCA056C7BAC40C7F1750004AFFB /* Support Files */,
+			);
+			name = TuyaSmartActivator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BDB0DD9DF2184EAAFFD00F527DE67764 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CC814063E47992E7A90FA41688C2A454 /* CFNetwork.framework */,
+				B655093DDCC0176DEAC903ABA8E76527 /* Foundation.framework */,
+				5359E8FB322457653E676483AB72D7B1 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BE6CE9458199C6DED8057F434179C981 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				272F6840A3C0F348893740E859779518 /* README-zh.md */,
+				009E8797D7F444B4FE0C9D2046F8C069 /* TuyaSmartActivator.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				EBBDFCB94B2FED014475107B48DA1B71 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				25798FF4D6D4FA79069DD647164F4905 /* Pods */,
+				2E30E8B4A3D1F1D4A3C4723989A9228D /* Products */,
+				E899EAE76BE84ED5D8F965B96BD783A7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E317EBC502FAA3B7E59D287E0D2D4B84 /* Pods-TuyaSmartActivator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				886C96C677BB7A4B95AE7AE0C67E9A31 /* Pods-TuyaSmartActivator_Example.modulemap */,
+				6FECEE43447B1DF34D59CF529949EE06 /* Pods-TuyaSmartActivator_Example-acknowledgements.markdown */,
+				5DCFC985F2EFAA12DBF2348C337F414F /* Pods-TuyaSmartActivator_Example-acknowledgements.plist */,
+				6F24BBCBEDD4AA3DFCF67432E7FF6D89 /* Pods-TuyaSmartActivator_Example-dummy.m */,
+				981FD0350546888D189E30C9C25AEBC4 /* Pods-TuyaSmartActivator_Example-frameworks.sh */,
+				C0DE6691D421F1B31FEA041E3D49B71D /* Pods-TuyaSmartActivator_Example-Info.plist */,
+				565EB2C404EBF5D507BD01091D5B55FE /* Pods-TuyaSmartActivator_Example-resources.sh */,
+				CB114C9B293A22D4B4DDD54181926E6B /* Pods-TuyaSmartActivator_Example-umbrella.h */,
+				550DC46129E14937CE8F63A7BE022564 /* Pods-TuyaSmartActivator_Example.debug.xcconfig */,
+				5048113513E1932ED8EA48681C1095AE /* Pods-TuyaSmartActivator_Example.release.xcconfig */,
+			);
+			name = "Pods-TuyaSmartActivator_Example";
+			path = "Target Support Files/Pods-TuyaSmartActivator_Example";
+			sourceTree = "<group>";
+		};
+		E899EAE76BE84ED5D8F965B96BD783A7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E317EBC502FAA3B7E59D287E0D2D4B84 /* Pods-TuyaSmartActivator_Example */,
+				619CAF91B51F8511B12580BF993698ED /* Pods-TuyaSmartActivator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EBBDFCB94B2FED014475107B48DA1B71 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC96F15B38F30A325084DBED6EF439F4 /* TuyaSmartActivator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FF7B3A80FC0937CF33A24DA2018E472B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B47D6DDBB60C8847C22F2D996A465A10 /* libTuyaSmartActivator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B74ABE824F49B23D6A91557E8B7761D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB4AABF4786977FB26B7EACB7B8E79D /* Pods-TuyaSmartActivator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98D8F37F6B733A7B53CD81F32BAEC96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64EEA9D4CDDAF20A2ED78CD63981BF3 /* Pods-TuyaSmartActivator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82807D639FCFDF56A607D3970098A87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */,
+				DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */,
+				411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		115831E4C0C7B84CA02899B51916CB54 /* Pods-TuyaSmartActivator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E62F123B40A13F61DAE79CE3D610EAA7 /* Build configuration list for PBXNativeTarget "Pods-TuyaSmartActivator_Tests" */;
+			buildPhases = (
+				B74ABE824F49B23D6A91557E8B7761D8 /* Headers */,
+				24C042C32D38C3D3EC57A90F3FFAAC4F /* Sources */,
+				69F94E462EB8AEC8C1532F9829E6D780 /* Frameworks */,
+				CC9E4883F3743B86C14F7B1A1A6FE63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD2A03AE928B5197FC24F0CE011D730 /* PBXTargetDependency */,
+			);
+			name = "Pods-TuyaSmartActivator_Tests";
+			productName = "Pods-TuyaSmartActivator_Tests";
+			productReference = 0EA40B653D4C3123F4AA2744673ACA8A /* Pods_TuyaSmartActivator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				F82807D639FCFDF56A607D3970098A87 /* Headers */,
+				398D9830C2C4A6872C9EEC588214E124 /* Sources */,
+				160EF26C734A27A9436CAB7143AF8F15 /* Frameworks */,
+				B7B5EDC45A81FF70431CFBFB2ABDFFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAE9D6C781EBDAB2A003C8462F27D919 /* Pods-TuyaSmartActivator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F55E0FA02CE54B390EA7987D38DD26 /* Build configuration list for PBXNativeTarget "Pods-TuyaSmartActivator_Example" */;
+			buildPhases = (
+				C98D8F37F6B733A7B53CD81F32BAEC96 /* Headers */,
+				B86B0805F102D734963A8171107622F0 /* Sources */,
+				33A8F4CD05A1990A82B88C03B73D9146 /* Frameworks */,
+				C3890068AB4167BB652B328EB2929D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73289FC5A15C5BEB649D6D560DB422F /* PBXTargetDependency */,
+				12E1A997FDBAAFC265165D9EE767E714 /* PBXTargetDependency */,
+				77DD60F44A882CD71DF6355D90B295F0 /* PBXTargetDependency */,
+				440A5A3AE12795F369F720F1FCB19570 /* PBXTargetDependency */,
+			);
+			name = "Pods-TuyaSmartActivator_Example";
+			productName = "Pods-TuyaSmartActivator_Example";
+			productReference = 91745A3558952EEE2CC04BDC3D672773 /* Pods_TuyaSmartActivator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2E30E8B4A3D1F1D4A3C4723989A9228D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
+				BAE9D6C781EBDAB2A003C8462F27D919 /* Pods-TuyaSmartActivator_Example */,
+				115831E4C0C7B84CA02899B51916CB54 /* Pods-TuyaSmartActivator_Tests */,
+				6910AECED46A13831930514BC636347C /* TuyaSmartActivator */,
+				85EAF3BF92126577F2D2A2CCF6883D56 /* TuyaSmartUtil */,
+				49BE71013E3709FFC17FB9FC12BF7230 /* TYBluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7B5EDC45A81FF70431CFBFB2ABDFFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3890068AB4167BB652B328EB2929D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9E4883F3743B86C14F7B1A1A6FE63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C042C32D38C3D3EC57A90F3FFAAC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF74333AE07C744964DCE76496BD714 /* Pods-TuyaSmartActivator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398D9830C2C4A6872C9EEC588214E124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C237B7AA6F4A2DD17CA05EB90C83362 /* CocoaAsyncSocket-dummy.m in Sources */,
+				1F292B5410B16DBF60D1F47A48216622 /* GCDAsyncSocket.m in Sources */,
+				BF0E4454B28437897BC092AE02CD0C13 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86B0805F102D734963A8171107622F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4669E34B9BDA0F6AC08DE5F69AF2F3F /* Pods-TuyaSmartActivator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12E1A997FDBAAFC265165D9EE767E714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYBluetooth;
+			target = 49BE71013E3709FFC17FB9FC12BF7230 /* TYBluetooth */;
+			targetProxy = 6B1B575E23BFD401A3F90DCF63C4AAA0 /* PBXContainerItemProxy */;
+		};
+		17F82B654281C6E3B3A17221A7DB208E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TuyaSmartUtil;
+			target = 85EAF3BF92126577F2D2A2CCF6883D56 /* TuyaSmartUtil */;
+			targetProxy = 834C71A9D6CD305ABF41882F4258619C /* PBXContainerItemProxy */;
+		};
+		4293A4EBC70DA1B145B83704D6DDCAD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = FD48B1D75C4A1EA8081495B4509C23EC /* PBXContainerItemProxy */;
+		};
+		440A5A3AE12795F369F720F1FCB19570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TuyaSmartUtil;
+			target = 85EAF3BF92126577F2D2A2CCF6883D56 /* TuyaSmartUtil */;
+			targetProxy = DCC1EA3A7D1F1A15D4094796E08220E5 /* PBXContainerItemProxy */;
+		};
+		77DD60F44A882CD71DF6355D90B295F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TuyaSmartActivator;
+			target = 6910AECED46A13831930514BC636347C /* TuyaSmartActivator */;
+			targetProxy = EF96AD8065E35416C6EBE79940E12AE9 /* PBXContainerItemProxy */;
+		};
+		C73289FC5A15C5BEB649D6D560DB422F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 6406A4044904A6ECF6DFD8A82C5CF219 /* PBXContainerItemProxy */;
+		};
+		DD76BE82FE4DDAEEF91026C910CAA6C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYBluetooth;
+			target = 49BE71013E3709FFC17FB9FC12BF7230 /* TYBluetooth */;
+			targetProxy = 399E384E16975BB52B45AA9DDDA64152 /* PBXContainerItemProxy */;
+		};
+		DFD2A03AE928B5197FC24F0CE011D730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TuyaSmartActivator_Example";
+			target = BAE9D6C781EBDAB2A003C8462F27D919 /* Pods-TuyaSmartActivator_Example */;
+			targetProxy = EE407FF6227B82B2812651D240820764 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		155398F9B2D06CF824F56ED59591A85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DA8E4E5A9DE614F4A67668423FF039A /* Pods-TuyaSmartActivator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TuyaSmartActivator_Tests/Pods-TuyaSmartActivator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TuyaSmartActivator_Tests/Pods-TuyaSmartActivator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17D481E9FE14214AB52D2572BAE85654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4B6E2211676A48FCD87CEA331BD892 /* TuyaSmartActivator.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		200782649F26D86B04AF9B9A8D43F7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4557F8B315D64B54D7C4DEA8BE3600D9 /* Pods-TuyaSmartActivator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TuyaSmartActivator_Tests/Pods-TuyaSmartActivator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TuyaSmartActivator_Tests/Pods-TuyaSmartActivator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3609B8AA9946C0F32EED177C6B4EACED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC72EC19EDE18FB973ED34C900959B17 /* TuyaSmartUtil.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		592F82595130054D34C835DDA220684A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E87B9C27783EDB5526D3EDBE3DF0A4 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72EB44E47CDEB7F01C4F8FFBD9FD9BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E87B9C27783EDB5526D3EDBE3DF0A4 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A2D7AD08160415911090D1364A6697CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F709C777D7ED878CBD29CC393A2940 /* TYBluetooth.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C98326136EA76C07E2D449CC160E02F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F709C777D7ED878CBD29CC393A2940 /* TYBluetooth.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E70BB9EB84DC21B9B50C4252FB0B7EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4B6E2211676A48FCD87CEA331BD892 /* TuyaSmartActivator.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8E1FD1A822534C6739207B38A720A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5048113513E1932ED8EA48681C1095AE /* Pods-TuyaSmartActivator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TuyaSmartActivator_Example/Pods-TuyaSmartActivator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TuyaSmartActivator_Example/Pods-TuyaSmartActivator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F37BA455D3CAD84021063B393B33EF9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 550DC46129E14937CE8F63A7BE022564 /* Pods-TuyaSmartActivator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TuyaSmartActivator_Example/Pods-TuyaSmartActivator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TuyaSmartActivator_Example/Pods-TuyaSmartActivator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC3045B50A1A6E64CB8C08726EB78F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC72EC19EDE18FB973ED34C900959B17 /* TuyaSmartUtil.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11F55E0FA02CE54B390EA7987D38DD26 /* Build configuration list for PBXNativeTarget "Pods-TuyaSmartActivator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37BA455D3CAD84021063B393B33EF9D /* Debug */,
+				E8E1FD1A822534C6739207B38A720A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537E119525EFE82FAC4CBC37B3A089D2 /* Build configuration list for PBXAggregateTarget "TYBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98326136EA76C07E2D449CC160E02F3 /* Debug */,
+				A2D7AD08160415911090D1364A6697CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72EB44E47CDEB7F01C4F8FFBD9FD9BF6 /* Debug */,
+				592F82595130054D34C835DDA220684A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0DA7905313034EF4F7F58E7A38E9A8 /* Build configuration list for PBXAggregateTarget "TuyaSmartActivator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70BB9EB84DC21B9B50C4252FB0B7EC7 /* Debug */,
+				17D481E9FE14214AB52D2572BAE85654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9286DE5A4C97B1E70634DFD183CE12D /* Build configuration list for PBXAggregateTarget "TuyaSmartUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3609B8AA9946C0F32EED177C6B4EACED /* Debug */,
+				FC3045B50A1A6E64CB8C08726EB78F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E62F123B40A13F61DAE79CE3D610EAA7 /* Build configuration list for PBXNativeTarget "Pods-TuyaSmartActivator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200782649F26D86B04AF9B9A8D43F7FE /* Debug */,
+				155398F9B2D06CF824F56ED59591A85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
